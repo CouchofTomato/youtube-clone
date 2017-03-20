@@ -1,0 +1,303 @@
+header {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+h2 {
+    padding: 12px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+h4 {
+    padding-bottom: 8px;
+    font-size: 12px;
+    font-family: arial;  
+}
+
+aside {
+    overflow: hidden;
+}
+
+#left-nav {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#right-nav {
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 55px;
+}
+
+#menu-burger {
+    background: url('../images/image2.webp') no-repeat -266px -282px;
+	width: 13px;
+	height: 10px;
+}
+
+#youtube-logo {
+    background: url('../images/image2.webp') no-repeat -276px -211px;
+	width: 72px;
+	height: 30px;
+	margin-left: 20px;
+}
+
+#form-text {
+    height: 20px;
+    width: 580px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#submit-button-pic {
+    background: url('../images/image2.webp') no-repeat -294px -29px;
+	width: 13px;
+	height: 13px;
+}
+
+#form-align {
+    margin-left: 90px;
+}
+
+#upload-logo {
+    background: url('../images/image2.webp') no-repeat -360px -380px;
+	width: 14px;
+	height: 17px;
+}
+
+#notifications-logo {
+    background: url('../images/image2.webp') no-repeat -121px -223px;
+	width: 17px;
+	height: 20px;
+	margin-left: 55px;
+}
+
+#profile-pic {
+    background: url('../images/photo.jpg') no-repeat 0 0;
+	width: 88px;
+	height: 88px;
+	zoom: 0.3;
+	border-radius: 50%;
+	margin-left: 60px;
+}
+
+#notifications-logo, #upload-logo {
+    opacity: 0.5;
+}
+
+#main-page {
+    background-color: #e0e0e0;
+    overflow: hidden;
+}
+
+#container {
+    width: 82%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#left-side {
+    float: left;
+    width: 67%;
+}
+
+#video, #video-description, #video-published, #comments, #up-next {
+    margin: 10px;
+    background-color: white;
+}
+
+#video-description {
+    position: relative;
+    overflow: hidden;
+}
+
+#video-description img {
+    height: 50px;
+    width: 50px;
+    margin-top: 12px;
+    margin-left: 10px;
+    float: left;
+}
+
+#video-description-image a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #373737;
+    font-family: arial;
+    vertical-align: top;
+}
+
+#video-description-image {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+#subscribe-button {
+    float: left;
+    width: 87%;
+    margin-bottom: 10px;
+}
+
+#subscribe-button button {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 2px;
+    float: left;
+}
+
+#subscribe-button p {
+    float: right;
+    text-decoration: underline;
+}
+
+#video-description-image, #subscribe-button {
+    margin-left: 10px;
+}
+
+#video-published {
+    padding: 10px;
+}
+
+#video-published p {
+    font-size: 12px;
+    font-family: arial;
+    padding: 1px;
+}
+
+#video-published p a {
+    text-decoration: none;
+    color: black;
+}
+
+#show-more {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+}
+
+#comment-body {
+    margin-left: 10px;
+}
+
+#comments form {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+#comments-button {
+    margin-bottom: 15px;
+}
+
+#comments img {
+    width: 50px;
+    height: 50px;
+}
+
+#comment-header p {
+    font-family: arial;
+    font-size: 12px;
+    opacity: 0.8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#comments-heading {
+    font-weight: bold;
+}
+
+.post-container {
+    overflow: auto;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.post-thumb, .post-thumb-level2 {
+    float: left;
+    display: block;
+}
+
+.post-thumb img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-content {
+    
+}
+
+.post-content p {
+    padding: 8px;
+}
+
+.post-title {
+
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #0b4fbc;
+}
+
+.post-thumb-level2 img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+#right-side {
+    float: right;
+    width: 32%;
+}
+
+#up-next-header {
+    width : 100%;
+    overflow: hidden;
+}
+
+#up-next-header p {
+    display: inline-block;
+}
+
+#autoplay {
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#sidebar-link img {
+    float: left;
+    margin-bottom: 15px;
+}
+
+aside div {
+    margin: 15px;
+    clear: left;
+}
+
+#sidebar-link h4 {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#sidebar-link p {
+    font-size: 12px;
+    margin: 5px;
+}
